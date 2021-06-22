@@ -16,3 +16,6 @@ Clinical genomics-based tests used in cancer patients have the potential to rein
   * DEG versus 5-year survival by ethnicity / race
 7. stratify analysis by all genes, genes overlapping clinical tests
   * measure how much information each gene adds to outcomes in a by-ancestry manner
+
+Team
+Sheryse
