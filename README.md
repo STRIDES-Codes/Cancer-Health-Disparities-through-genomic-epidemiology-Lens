@@ -17,5 +17,5 @@ Clinical genomics-based tests used in cancer patients have the potential to rein
 7. Stratify analysis by all genes, genes overlapping clinical tests
   * measure how much information each gene adds to outcomes in a by-ancestry manner
 8. ? Compartive immune infiltration by race using CIBERSORT
-  * immune cells populations associated with PFS/OS, by race
+  * immune cells associated with PFS/OS, by race
   * immune clusters associated with PFS/OS, by race
