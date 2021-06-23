@@ -1,18 +1,34 @@
 # Cancer Health Disparities through a genomic epidemiology lens
-Clinical genomics-based tests used in cancer patients have the potential to reinforce health disparities, especially if the targets of tests do not offer prognostic validity for people of diverse ancestries. For example, a widely-used 21-gene test established by [Paik et al. 2004](https://doi.org/10.1634/theoncologist.12-6-631) uses tumor genomic profiling in breast cancer patients to assess recurrence with recurrence scores and make recommendations on the benefits of chemotherapy for invasive breast cancer cases that are ER+ and HER2- at most anatomical stages and regardless of lymph node invasion. [Hoskins et al. 2021](https://doi.org/10.1001/jamaoncol.2020.7320) demonstrated that not only do black women have disproportionately higher risk recurrence scores but also experience worse outcomes when matched against non-Hispanic white women with similar diagnoses and recurrence scores, meaning that the mist popular tumor profiling tests has poor prognostic value in black women. Could there exist pervasive disparities in clinical tumor oncotyping tests that we might address through re-examining gene expression and copy number variation stratified by ancestry?
+### Team: David Adeleke (Leader), David Enoma (Mentor), Rony Arauz, Kathleen Morrill, Sheryse Taylor, Thai Tran, Erika Whitney
+
+Clinical genomics-based tests have been widely employed to aid physicians in determining a patient's risk and to inform therapeutic decisions. However, they can potentially reinforce health disparities if the tests are not prognostically valid for patients of all ancestries. For example, a widely-used 21-gene test established by [Paik et al. 2004](https://doi.org/10.1634/theoncologist.12-6-631) uses tumor genomic profiling in breast cancer patients to assess recurrence with recurrence scores and make recommendations on the benefits of chemotherapy for invasive breast cancer cases that are ER+ and HER2- at in early stages and regardless of lymph node invasion. [Hoskins et al. 2021](https://doi.org/10.1001/jamaoncol.2020.7320) demonstrated that not only do black women have disproportionately higher risk recurrence scores but also experience worse outcomes when matched against non-Hispanic white women with similar diagnoses and recurrence scores, meaning that the most popular tumor profiling test has poor prognostic value in black women. Thus, we investigated whether there were any differences in the prognostic validity of gene panel tests for colon cancer patients of African descent. Currently, African Americans experience disproportionately high rates of colon cancer incidence, and mortality in comparison to non-Hispanic European Americans [Carethers. 2021](https://doi.org/10.1016/bs.acr.2021.02.007). The increased colon cancer burden in this specific patient population creates an urgent need for examination of the accuracy of commonly used prognostic tests. 
 
 ### Pipeline
 (in progress)
 
-1. select cancer (TCGA-COAD is colon)
-2. pull TCGA data (gene expression and CNV) (TCGA) and metadata (ancestry) (TCGAA)
-3. stratify by ancestry and produce summary statistics
-4. ??? differential analyses ???
+1. Dataset: TCGA-COAD
+2. Extract: Gene expression, CNV, ancestry
+3. Stratify/infer race
+4. Gene expression analysis
   * DEG in tumor vs healthy tissue in all patients
   * DEG in tumor vs healthy tissue by ethnicity / race
 5. Gene set enrichment analysis for pathways of DEG
-6. ??? outcome analyses ???
+  * GSEA by race of specific pathways found in gene expression panels
+7. Primary outcome
   * DEG versus 5-year survival in all patients
   * DEG versus 5-year survival by ethnicity / race
-7. stratify analysis by all genes, genes overlapping clinical tests
+8. Stratify analysis by all genes, genes overlapping clinical tests
   * measure how much information each gene adds to outcomes in a by-ancestry manner
+9. ? Compartive immune infiltration by race using CIBERSORT
+  * immune cells associated with PFS/OS, by race
+  * immune clusters associated with PFS/OS, by race
+
+
+### Workflow Graphic
+
+## Findings
+
+### List of packages used in analysis
+
+### Link to code
+
