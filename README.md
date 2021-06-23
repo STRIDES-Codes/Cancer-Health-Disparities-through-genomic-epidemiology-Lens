@@ -4,15 +4,18 @@ Clinical genomics-based tests used in cancer patients have the potential to rein
 ### Pipeline
 (in progress)
 
-1. select cancer (TCGA-COAD is colon)
-2. pull TCGA data (gene expression and CNV) (TCGA) and metadata (ancestry) (TCGAA)
-3. stratify by ancestry and produce summary statistics
-4. ??? differential analyses ???
+1. Dataset: TCGA-COAD
+    2. Gene expression, CNV, ancestry
+3. Stratify/infer race
+4. Gene expression analysis
   * DEG in tumor vs healthy tissue in all patients
   * DEG in tumor vs healthy tissue by ethnicity / race
 5. Gene set enrichment analysis for pathways of DEG
-6. ??? outcome analyses ???
+6. Primary outcome
   * DEG versus 5-year survival in all patients
   * DEG versus 5-year survival by ethnicity / race
-7. stratify analysis by all genes, genes overlapping clinical tests
+7. Stratify analysis by all genes, genes overlapping clinical tests
   * measure how much information each gene adds to outcomes in a by-ancestry manner
+8. ? Compartive immune infiltration by race using CIBERSORT
+  * immune cells populations associated with PFS/OS, by race
+  * immune clusters associated with PFS/OS, by race
