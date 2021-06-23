@@ -28,14 +28,14 @@ avail <- as.data.frame(avail)
 avail$patcode <- substring(avail$avail,1,12)
 colnames(avail)<-c("barcode", "patcode")
 All_barcode <- (merge(TCGA_ANS, avail, by = 'patcode'))
-Black<- unique(All_barcode[which(All_barcode$Ances == "AA"),]$barcode)
+Black<- unique(All_barcode[which(All_barcode$Ances == "afr"),]$barcode)
 Black<-unique(Black)
 Black <- as.data.frame(Black)
 colnames(Black)<-"barcode"
 Black <- Black[Black$barcode !="TCGA-A6-5661-01B-05R-2302-07",]
 
 
-White<- unique(All_barcode[which(All_barcode$Ances == "EA"),]$barcode)
+White<- unique(All_barcode[which(All_barcode$Ances == "eur"),]$barcode)
 White<-unique(White)
 White <- as.data.frame(White)
 colnames(White)<-"barcode"
