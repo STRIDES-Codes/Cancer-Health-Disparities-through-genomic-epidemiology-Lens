@@ -11,11 +11,12 @@ Clinical genomics-based tests used in cancer patients have the potential to rein
   * DEG in tumor vs healthy tissue in all patients
   * DEG in tumor vs healthy tissue by ethnicity / race
 5. Gene set enrichment analysis for pathways of DEG
-6. Primary outcome
+  * GSEA by race of specific pathways found in gene expression panels
+7. Primary outcome
   * DEG versus 5-year survival in all patients
   * DEG versus 5-year survival by ethnicity / race
-7. Stratify analysis by all genes, genes overlapping clinical tests
+8. Stratify analysis by all genes, genes overlapping clinical tests
   * measure how much information each gene adds to outcomes in a by-ancestry manner
-8. ? Compartive immune infiltration by race using CIBERSORT
+9. ? Compartive immune infiltration by race using CIBERSORT
   * immune cells associated with PFS/OS, by race
   * immune clusters associated with PFS/OS, by race
