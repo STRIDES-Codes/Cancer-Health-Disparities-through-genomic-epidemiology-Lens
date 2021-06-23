@@ -1,0 +1,13 @@
+OncotypeDX_Colon_RS_all_test	OncotypeDX_Colon_RS_stromal	OncotypeDX_Colon_RS_early_response	OncotypeDX_Colon_RS_cell_cycle	OncotypeDX_Colon_RS_reference
+BGN	BGN	GADD45B	Ki67	ATP5E
+FAP	FAP		CMYC	GPX1
+INHBA	INHBA		MYBL2	PGK1
+GADD45B				UBB
+Ki67				VDAC2
+CMYC				
+MYBL2				
+ATP5E				
+GPX1				
+PGK1				
+UBB				
+VDAC2				
