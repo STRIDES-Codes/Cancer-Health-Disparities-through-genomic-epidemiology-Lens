@@ -1,0 +1,3 @@
+https://doi.org/10.1016/j.ccell.2020.04.012
+1. J. Carrot-Zhang, N. Chambwe, J. S. Damrauer, T. A. Knijnenburg, A. G. Robertson, C. Yau, W. Zhou, A. C. Berger, K. Huang, J. Y. Newberg, R. J. Mashl, A. Romanel, R. W. Sayaman, F. Demichelis, I. Felau, G. M. Frampton, S. Han, K. A. Hoadley, A. Kemal, P. W. Laird, A. J. Lazar, X. Le, N. Oak, H. Shen, C. K. Wong, J. C. Zenklusen, E. Ziv, A. D. Cherniack, R. Beroukhim, F. Aguet, L. Ding, J. A. Demchok, M. K. A. Mensah, S. Caesar-Johnson, R. Tarnuzzer, Z. Wang, L. Yang, J. Alfoldi, K. J. Karczewski, D. G. MacArthur, M. Meyerson, C. Benz, J. M. Stuart, Comprehensive Analysis of Genetic Ancestry and Its Molecular Correlates in Cancer. Cancer Cell. 37, 639-654.e6 (2020).
+
