@@ -5,7 +5,7 @@ Clinical genomics-based tests used in cancer patients have the potential to rein
 (in progress)
 
 1. Dataset: TCGA-COAD
-    2. Gene expression, CNV, ancestry
+2. Extract: Gene expression, CNV, ancestry
 3. Stratify/infer race
 4. Gene expression analysis
   * DEG in tumor vs healthy tissue in all patients
