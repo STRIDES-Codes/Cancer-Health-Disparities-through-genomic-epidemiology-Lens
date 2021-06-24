@@ -129,6 +129,24 @@ nrow(dataDEGs)
 
 
 # DEGs table with expression values in normal and tumor samples
-dataDEGsFiltLevel <- TCGAanalyze_LevelTab(dataDEGs,"Tumor","Normal",
+dataDEGsFiltLevel <- TCGAanalyze_LevelTab(dataDEGs,"EUR","AFR",
                                           dataNormEE, dataNormBB)
+
+
+
+#------------------- EA: enrichment analysis             --------------------
+ansEA <- TCGAanalyze_EAcomplete(
+  TFname = "DEA genes White Vs Black", 
+  RegulonList = rownames(dataDEGs)
+)
+
+
+TCGAvisualize_EAbarplot(tf = rownames(ansEA$ResBP), 
+                        GOBPTab = ansEA$ResBP,
+                        GOCCTab = ansEA$ResCC,
+                        GOMFTab = ansEA$ResMF,
+                        PathTab = ansEA$ResPat,
+                        nRGTab = rownames(dataDEGs), 
+                        nBar = 15,
+                        filename = NULL)
 
