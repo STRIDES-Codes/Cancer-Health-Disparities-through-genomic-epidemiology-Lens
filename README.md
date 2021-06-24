@@ -25,6 +25,7 @@ Clinical genomics-based tests have been widely employed to aid physicians in det
 
 
 ### Workflow Graphic
+![Workflow Graphic](https://github.com/STRIDES-Codes/Cancer-Health-Disparities-through-genomic-epidemiology-Lens/blob/main/Screen%20Shot%202021-06-24%20at%2012.13.58%20PM.png)
 
 ## Findings
 
