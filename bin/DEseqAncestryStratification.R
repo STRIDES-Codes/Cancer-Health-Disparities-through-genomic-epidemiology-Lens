@@ -91,7 +91,7 @@ dataPrepAFR <- TCGAanalyze_Preprocessing(
   datatype = "raw_count",
   filename = "coad_AFR.png")
 
-# differential gene expression:
+# normalize gene expression:
 dataNormEUR <- TCGAanalyze_Normalization(
   tabDF = dataPrepEUR,
   geneInfo = TCGAbiolinks::geneInfo,
@@ -102,25 +102,21 @@ dataNormAFR <- TCGAanalyze_Normalization(
   geneInfo = TCGAbiolinks::geneInfo,
   method = "gcContent")
 
-
-
+# differential gene expression
 dataDEGs <- TCGAanalyze_DEA(
-  mat1 = dataNormEE,
-  mat2 = dataNormBB,
-  Cond1type = "Whitw",
-  Cond2type = "Black",
+  mat1 = dataNormEUR,
+  mat2 = dataNormAFR,
+  Cond1type = "white",
+  Cond2type = "black",
   fdr.cut = 0.01 ,
   logFC.cut = 1,
   method = "glmLRT")
 
-# Number of differentially expressed genes (DEG)
+# number of differentially expressed genes (DEG)
 nrow(dataDEGs)
-
-
-#dataDEGs that showed logFC > 1 and FDR < 0.01 for example, can be considered significantly Up-regulated genes in cancer (EE) tissues. 
-
+# dataDEGs that showed logFC > 1 and FDR < 0.01 for example, can be considered significantly up-regulated genes in cancer tissues by ancestry 
 
 # DEGs table with expression values in normal and tumor samples
-dataDEGsFiltLevel <- TCGAanalyze_LevelTab(dataDEGs,"Tumor","Normal",
-                                          dataNormEE, dataNormBB)
+dataDEGsFiltLevel <- TCGAanalyze_LevelTab(dataDEGs,"EUR","AFR",
+                                          dataNormEUR, dataNormAFR)
 
