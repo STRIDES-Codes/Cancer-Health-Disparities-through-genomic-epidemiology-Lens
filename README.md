@@ -46,6 +46,11 @@ Clinical genomics-based tests have been widely employed to aid physicians in det
 ![Workflow Graphic](https://github.com/STRIDES-Codes/Cancer-Health-Disparities-through-genomic-epidemiology-Lens/blob/main/survival_races.PNG)
 ## Findings
 
+## PATHWAY enriched
+![Workflow Graphic](https://github.com/STRIDES-Codes/Cancer-Health-Disparities-through-genomic-epidemiology-Lens/blob/main/hsa05210.pathview.png)
+## Findings
+
+
 ### List of packages used in analysis
 
 ### Link to code
