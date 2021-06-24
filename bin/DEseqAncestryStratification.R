@@ -120,3 +120,7 @@ nrow(dataDEGs)
 dataDEGsFiltLevel <- TCGAanalyze_LevelTab(dataDEGs,"EUR","AFR",
                                           dataNormEUR, dataNormAFR)
 
+# label genes used in clinical test:
+#clinicalTestGenes = clinicalTests %>% pivot_longer(cols = colnames(clinicalTests), names_to = "pathway", values_to = "gene")
+#clinicalTestGenesAll = data.table(test = "test", gene = unique(clinicalTestGenes$gene))
+#dataDEGsFiltLevel = merge(dataDEGsFiltLevel,clinicalTestGenesAll, by.x = "mRNA", by.y = "gene", all.x=T)
