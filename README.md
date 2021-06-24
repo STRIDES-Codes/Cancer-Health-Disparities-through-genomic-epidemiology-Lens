@@ -19,9 +19,9 @@ Clinical genomics-based tests have been widely employed to aid physicians in det
   * DEG versus 5-year survival by ethnicity / race
 8. Stratify analysis by all genes, genes overlapping clinical tests
   * measure how much information each gene adds to outcomes in a by-ancestry manner
-9. ? Compartive immune infiltration by race using CIBERSORT
+9. Compartive immune infiltration by race using CIBERSORT
   * immune cells associated with PFS/OS, by race
-  * immune clusters associated with PFS/OS, by race
+
 
 
 ### Workflow Graphic
