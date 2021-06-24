@@ -28,13 +28,21 @@ Clinical genomics-based tests have been widely employed to aid physicians in det
 
 ![Workflow Graphic](https://github.com/STRIDES-Codes/Cancer-Health-Disparities-through-genomic-epidemiology-Lens/blob/main/Screen%20Shot%202021-06-24%20at%2012.13.58%20PM.png)
 
+
+
+
 #Table KM-survival genes after SA - White Population
 ![Workflow Graphic](https://github.com/STRIDES-Codes/Cancer-Health-Disparities-through-genomic-epidemiology-Lens/blob/main/Survival_Correlations_White.PNG)
 
-#Table KM-survival genes after SA - Black Population
+
+
+##Table KM-survival genes after SA - Black Population
 ![Workflow Graphic](https://github.com/STRIDES-Codes/Cancer-Health-Disparities-through-genomic-epidemiology-Lens/blob/main/Survival_Correlations_black.PNG)
 
-#Table KM-survival by races
+
+
+
+##Table KM-survival by races
 ![Workflow Graphic](https://github.com/STRIDES-Codes/Cancer-Health-Disparities-through-genomic-epidemiology-Lens/blob/main/survival_races.PNG)
 ## Findings
 
