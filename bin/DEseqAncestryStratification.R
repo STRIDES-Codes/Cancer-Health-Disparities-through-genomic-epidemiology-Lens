@@ -1,23 +1,22 @@
-# WIP: differential gene expression stratified by ancestry
-
+# Workflow for differential gene expression stratified by ancestry
 # Libraries
-library(tidyverse)
-library(data.table)
-library(TCGAbiolinks)
-library(DESeq2)
+require(tidyverse)
+require(readr)
+require(data.table)
+require(TCGAbiolinks)
+require(DESeq2)
 
 # Settings
 # local: setwd("~/scratch/Cancer-Health-Disparities-through-genomic-epidemiology-Lens/")
-setwd("~/scratch/Cancer-Health-Disparities-through-genomic-epidemiology-Lens/")
-
+setwd("~/Cancer-Health-Disparities-through-genomic-epidemiology-Lens/")
 
 # Cancer Type
-typeCancer = "BRCA"
+typeCancer = "COAD"
 typeTCGA = paste("TCGA", typeCancer, sep ="-")
 
 # Import Data
 # import clinical test gene sets:
-clinicalTests = read.delim(file = "",
+clinicalTests = read.delim(file = ".",
 )
 
 # import inferred ancestry in TCGA participants
