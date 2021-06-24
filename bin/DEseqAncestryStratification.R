@@ -119,6 +119,7 @@ nrow(dataDEGs)
 # DEGs table with expression values in normal and tumor samples
 dataDEGsFiltLevel <- TCGAanalyze_LevelTab(dataDEGs,"EUR","AFR",
                                           dataNormEUR, dataNormAFR)
+write.table(dataDEGsFiltLevel, file = "./data/DEGs_EUR_AFR.tsv", sep = "\t", row.names = F, quote = F)
 
 # label genes used in clinical test:
 #clinicalTestGenes = clinicalTests %>% pivot_longer(cols = colnames(clinicalTests), names_to = "pathway", values_to = "gene")
